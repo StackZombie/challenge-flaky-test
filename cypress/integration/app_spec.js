@@ -24,5 +24,8 @@ describe('Sign Up', () => {
 
     cy.get('li')
       .should('contain', 'Some Name - some@email.com - core - git-it')
+    
+    cy.wait(4000)
   })
+
 })
